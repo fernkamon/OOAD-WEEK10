@@ -92,7 +92,7 @@ librarian -> recordBook : Details filling
  ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/img%252520ooad%252520week10/Borrow.png)
  
   
-  5. โรงพยาบาล
+ 5. โรงพยาบาล
  
  ```
  @startuml
@@ -115,7 +115,7 @@ patient -> clerk : pay money
 @enduml
   ```
  
- ![]()
+ ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/img%25252520ooad%25252520week10/Hotel.png)
  
   
 README.md 
