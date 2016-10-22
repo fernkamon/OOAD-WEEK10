@@ -92,8 +92,30 @@ librarian -> recordBook : Details filling
  ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/img%252520ooad%252520week10/Borrow.png)
  
   
-  5. 
+  5. โรงพยาบาล
  
+ ```
+ @startuml
+
+title Hotel
+
+patient -> staff : Filed cue cards
+staff <- staff : Vality Data \npatient
+Staff -> nurse : Send Data patient
+nurse -> patient : The queue of patients
+nurse -> patient : Ask preliminary symptoms
+nurse -> Doctor : Sent Data preliminary \nsymptoms of patient
+Doctor -> patient : cure
+Doctor -> apothecary : Prescriptions
+apothecary -> apothecary : Find prescription drugs
+apothecary -> clerk : Send Values medicines
+apothecary -> patient : medication
+patient -> clerk : pay money
+
+@enduml
+  ```
+ 
+ ![]()
  
   
 README.md 
