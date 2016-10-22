@@ -88,9 +88,9 @@ librarian -> recordBook : Details filling
 
 @enduml
  ``` 
- ![]()
+ ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/img%252520ooad%252520week10/Borrow.png)
  
- 
+   5. 
  
  
   
