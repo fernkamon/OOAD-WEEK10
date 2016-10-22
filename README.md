@@ -3,7 +3,7 @@ Sequence Diagram
 
 # ส่งการบ้าน 
 
- การซื้อสินค้าออนไลน์
+ 1. การซื้อสินค้าออนไลน์
  
  ```
  @startuml
@@ -24,7 +24,7 @@ Employee -> Customer : delivery product
  
  ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/img%20ooad%20week10/Online%20Shopping.png)
 
-  E-Leanig
+ 2. E-Leanig
   
    ```
 @startuml
@@ -48,7 +48,7 @@ Server -> Student : Show Display lesson
  
  ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/img%2520ooad%2520week10/E-Leanig.png)
  
- Register Leaning
+ 3. Register Leaning
  
   ```
  @startuml
