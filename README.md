@@ -24,7 +24,7 @@ Employee -> Customer : delivery product
  
  ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/img%20ooad%20week10/Online%20Shopping.png)
 
- 2. E-Leanig
+ 2. E-Leanign
   
    ```
 @startuml
@@ -71,6 +71,28 @@ Register <- Student : Pay
  ```
  
  ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/img%2520ooad%2520week10/Register.png)
+ 
+   4. การยืมหนังสือ
+   
+  ```  
+   @startuml
+
+title Borrowing books
+
+Member -> librarian : tell Data member
+Member <- librarian : Vality
+Member -> Book : Borrow
+librarian -> Book : Vality Book Details
+Member <- librarian : Date return Book
+librarian -> recordBook : Details filling
+
+@enduml
+ ``` 
+ ![]()
+ 
+ 
+ 
+ 
   
 README.md 
 md เป็นภาษา Markdown นิยมใช้ใน wiki ของ github 
