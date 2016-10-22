@@ -24,6 +24,29 @@ Employee -> Customer : delivery product
  
  ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/img%20ooad%20week10/Online%20Shopping.png)
 
+  E-Leanig
+  
+   ```
+@startuml
+
+title E-Leaning 
+
+Student -> WEB : login
+Student <- WEB : Show login
+Student -> WEB : Complete login
+WEB -> Server : Validation
+Server -> Student : Show display index member
+Student -> WEB : Into the lesson
+Student <- WEB : Show the lesson
+Student -> WEB : Choose lesson
+WEB -> ELeaning : The lessons \nbe selected Send 
+ELeaning -> Server : The lessons \nbe selected Send
+Server -> Student : Show Display lesson
+
+@enduml
+ ```
+ 
+ ![]()
 README.md 
 md เป็นภาษา Markdown นิยมใช้ใน wiki ของ github 
 
