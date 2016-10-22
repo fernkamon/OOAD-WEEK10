@@ -46,7 +46,8 @@ Server -> Student : Show Display lesson
 @enduml
  ```
  
- ![]()
+ ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/img%2520ooad%2520week10/E-Leanig.png)
+ 
 README.md 
 md เป็นภาษา Markdown นิยมใช้ใน wiki ของ github 
 
