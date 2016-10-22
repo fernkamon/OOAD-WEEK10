@@ -48,6 +48,30 @@ Server -> Student : Show Display lesson
  
  ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/img%2520ooad%2520week10/E-Leanig.png)
  
+ Register Leaning
+ 
+  ```
+ @startuml
+
+title register Leaning
+
+Student -> System : Login
+System -> System : Vality
+System -> Student : Show Display
+Student -> System : Choose ID Subject
+System -> System : Vality
+System -> Student : Show Display Subject
+Student -> System : Confirm registration
+System -> Register : Send Data
+System <- Register : The amount to be paid
+System -> Student : The amount to be paid
+Register <- Student : Pay
+
+@enduml
+ ```
+ 
+ ![]()
+  
 README.md 
 md เป็นภาษา Markdown นิยมใช้ใน wiki ของ github 
 
