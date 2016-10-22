@@ -72,7 +72,8 @@ Register <- Student : Pay
  
  ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/img%2520ooad%2520week10/Register.png)
  
-   4. การยืมหนังสือ
+   
+ 4. การยืมหนังสือ
    
   ```  
    @startuml
@@ -90,7 +91,8 @@ librarian -> recordBook : Details filling
  ``` 
  ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/img%252520ooad%252520week10/Borrow.png)
  
-   5. 
+  
+  5. 
  
  
   
