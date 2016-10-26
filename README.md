@@ -97,11 +97,11 @@ librarian -> recordBook : Details filling
  ```
  @startuml
 
-title Hotel
+title Hospital
 
 patient -> staff : Filed cue cards
-staff <- staff : Vality Data \npatient
-Staff -> nurse : Send Data patient
+staff -> staff : Vality Data \npatient
+staff -> nurse : Send Data patient
 nurse -> patient : The queue of patients
 nurse -> patient : Ask preliminary symptoms
 nurse -> Doctor : Sent Data preliminary \nsymptoms of patient
