@@ -115,7 +115,7 @@ patient -> clerk : pay money
 @enduml
   ```
  
- ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/img%25252520ooad%25252520week10/Hotel.png)
+ ![](https://github.com/fernkamon/OOAD-WEEK10/blob/master/hotpital.png)
  
   
 README.md 
